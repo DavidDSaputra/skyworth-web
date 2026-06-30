@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Skyworth Web
 
-## Getting Started
+Next.js 16 product catalog, RFQ capture, and admin workspace for Skyworth PV.
 
-First, run the development server:
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copy `.env.example` to `.env.local`, then set the production values:
 
-## Learn More
+```bash
+NEXT_PUBLIC_SITE_URL="https://www.skyworth-pv.com"
+NEXT_PUBLIC_SALES_EMAIL="sales@skyworth-pv.com"
+ADMIN_PASSWORD="use-a-strong-password"
+ADMIN_SESSION_SECRET="use-at-least-32-random-characters"
+```
 
-To learn more about Next.js, take a look at the following resources:
+Admin routes are disabled until both `ADMIN_PASSWORD` and
+`ADMIN_SESSION_SECRET` are configured.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Checks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+npm run test
+npm run build
+```
 
-## Deploy on Vercel
+## Data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Products are stored in `src/data/products.json`. Leads are persisted in
+`src/data/leads.json` so RFQ submissions survive server restarts.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Production Notes
+
+Set real contact details, SendGrid credentials, GA4 credentials, Cloudinary
+credentials, and the canonical site URL in the deployment environment. The
+site generates `robots.txt`, `sitemap.xml`, canonical metadata, Open Graph
+metadata, and product JSON-LD from the configured values.

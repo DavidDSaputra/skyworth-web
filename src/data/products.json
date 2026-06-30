@@ -1,0 +1,419 @@
+[
+  {
+    "id": "prod-550-mono",
+    "sku": "SKY-PV-550M",
+    "slug": "skyworth-mono-550w",
+    "category": "PV Module",
+    "productLine": "Utility-scale",
+    "featured": true,
+    "powerW": 550,
+    "efficiency": 21.3,
+    "cells": "144 half-cell mono PERC",
+    "warranty": "12-year product / 30-year linear output",
+    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "High-output monocrystalline architecture for utility projects",
+      "Half-cell layout helps reduce resistive loss in large arrays",
+      "Repeatable documentation pack for EPC and procurement review"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "TUV",
+      "CE"
+    ],
+    "specs": {
+      "Maximum power": "550 W",
+      "Module efficiency": "21.3%",
+      "Open-circuit voltage": "49.9 V",
+      "Short-circuit current": "14.0 A",
+      "Dimensions": "2279 x 1134 x 35 mm",
+      "Weight": "28.6 kg",
+      "Operating temperature": "-40C to +85C",
+      "Connector type": "MC4 compatible"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Utility solar field installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Module rows under test"
+      }
+    ],
+    "datasheets": [
+      {
+        "id": "ds-550-en",
+        "label": "550W Module Datasheet",
+        "filename": "skyworth-550w-module.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 345678
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth Mono 550W PV Module",
+        "shortDescription": "High-output monocrystalline module for EPCs and utility-scale developers.",
+        "description": "A bankable 550W module engineered for repeatable field performance, strict QA control, and predictable BOS planning. The half-cell design supports lower resistive loss and better shade tolerance across large ground-mount projects.",
+        "metaTitle": "Skyworth Mono 550W PV Module",
+        "metaDescription": "Technical specs, certifications, datasheet, and RFQ flow for Skyworth 550W monocrystalline PV modules."
+      },
+      {
+        "locale": "id",
+        "name": "Modul PV Skyworth Mono 550W",
+        "shortDescription": "Modul monokristalin berdaya tinggi untuk EPC dan proyek utility-scale.",
+        "description": "Modul 550W yang dirancang untuk performa lapangan stabil, kontrol kualitas ketat, dan perencanaan BOS yang mudah diprediksi. Desain half-cell membantu mengurangi rugi resistif dan meningkatkan toleransi bayangan.",
+        "metaTitle": "Modul PV Skyworth Mono 550W",
+        "metaDescription": "Spesifikasi teknis, sertifikasi, datasheet, dan RFQ untuk modul PV monokristalin Skyworth 550W."
+      }
+    ]
+  },
+  {
+    "id": "prod-430-rooftop",
+    "sku": "SKY-PV-430R",
+    "slug": "skyworth-rooftop-430w",
+    "category": "PV Module",
+    "productLine": "Commercial rooftop",
+    "featured": true,
+    "powerW": 430,
+    "efficiency": 20.9,
+    "cells": "108 half-cell mono",
+    "warranty": "15-year product / 25-year output",
+    "thumbnail": "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "Compact format for constrained rooftop layouts",
+      "Balanced handling weight for faster installer movement",
+      "Strong fit for distributed commercial generation projects"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Maximum power": "430 W",
+      "Module efficiency": "20.9%",
+      "Open-circuit voltage": "37.1 V",
+      "Short-circuit current": "13.8 A",
+      "Dimensions": "1722 x 1134 x 30 mm",
+      "Weight": "21.5 kg",
+      "Wind load": "2400 Pa",
+      "Snow load": "5400 Pa"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Commercial rooftop commissioning"
+      }
+    ],
+    "datasheets": [
+      {
+        "id": "ds-430-en",
+        "label": "430W Rooftop Datasheet",
+        "filename": "skyworth-430w-rooftop.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 288100
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth Rooftop 430W PV Module",
+        "shortDescription": "Compact high-efficiency module for commercial rooftops and distributed generation.",
+        "description": "Optimized for commercial rooftop constraints with balanced power density, handling weight, and certification coverage for repeatable multi-site rollouts.",
+        "metaTitle": "Skyworth Rooftop 430W PV Module",
+        "metaDescription": "Compact 430W PV module for commercial rooftop procurement and RFQ workflows."
+      },
+      {
+        "locale": "id",
+        "name": "Modul PV Skyworth Rooftop 430W",
+        "shortDescription": "Modul efisiensi tinggi yang ringkas untuk rooftop komersial dan distributed generation.",
+        "description": "Dioptimalkan untuk batasan rooftop komersial dengan kepadatan daya, bobot pemasangan, dan cakupan sertifikasi yang seimbang untuk rollout banyak lokasi.",
+        "metaTitle": "Modul PV Skyworth Rooftop 430W",
+        "metaDescription": "Modul PV 430W ringkas untuk procurement rooftop komersial dan alur RFQ."
+      }
+    ]
+  },
+  {
+    "id": "prod-600-bifacial",
+    "sku": "SKY-PV-600B",
+    "slug": "skyworth-bifacial-600w",
+    "category": "PV Module",
+    "productLine": "Bifacial TOPCon",
+    "featured": true,
+    "powerW": 600,
+    "efficiency": 21.8,
+    "cells": "132 half-cell N-type TOPCon",
+    "warranty": "15-year product / 30-year output",
+    "thumbnail": "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "Bifacial energy capture for higher lifetime yield",
+      "N-type TOPCon cell platform with low annual degradation",
+      "Designed for ground-mount proposals that prioritize performance"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "UL",
+      "TUV"
+    ],
+    "specs": {
+      "Maximum power": "600 W",
+      "Module efficiency": "21.8%",
+      "Bifacial gain": "Up to 25%",
+      "Open-circuit voltage": "45.8 V",
+      "Dimensions": "2382 x 1134 x 35 mm",
+      "Weight": "32.1 kg",
+      "Degradation year 1": "1.0%",
+      "Annual degradation": "0.4%"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1545209463-e2825498edbf?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Bifacial modules on ground mount"
+      }
+    ],
+    "datasheets": [
+      {
+        "id": "ds-600-en",
+        "label": "600W Bifacial Datasheet",
+        "filename": "skyworth-600w-bifacial.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 401220
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth Bifacial 600W TOPCon Module",
+        "shortDescription": "N-type bifacial module for high-yield ground-mount projects.",
+        "description": "Designed for projects where lifetime yield matters, this TOPCon bifacial module combines higher rear-side energy capture with low annual degradation.",
+        "metaTitle": "Skyworth Bifacial 600W TOPCon Module",
+        "metaDescription": "600W bifacial TOPCon module specs, certifications, datasheet download, and RFQ."
+      },
+      {
+        "locale": "id",
+        "name": "Modul TOPCon Bifacial Skyworth 600W",
+        "shortDescription": "Modul bifacial N-type untuk proyek ground-mount dengan yield tinggi.",
+        "description": "Dirancang untuk proyek yang menekankan yield sepanjang umur aset, modul bifacial TOPCon ini menggabungkan tangkapan energi sisi belakang dengan degradasi tahunan rendah.",
+        "metaTitle": "Modul TOPCon Bifacial Skyworth 600W",
+        "metaDescription": "Spesifikasi modul TOPCon bifacial 600W, sertifikasi, unduh datasheet, dan RFQ."
+      }
+    ]
+  },
+  {
+    "sku": "TEST-PV-660271",
+    "slug": "dummy-test-module-660271",
+    "category": "PV Module",
+    "productLine": "QA Sandbox",
+    "featured": false,
+    "powerW": 575,
+    "efficiency": 22.4,
+    "cells": "144 half-cell N-type",
+    "warranty": "15-year product / 30-year linear output",
+    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "Dummy feature for admin create-product testing",
+      "Supports quick validation of form submission flow",
+      "Contains complete bilingual content for QA checks"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "TUV",
+      "CE"
+    ],
+    "specs": {
+      "Maximum power": "575 W",
+      "Module efficiency": "22.4%",
+      "Open-circuit voltage": "51.2 V",
+      "Short-circuit current": "14.3 A",
+      "Dimensions": "2278 x 1134 x 35 mm",
+      "Weight": "28.9 kg"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy utility-scale installation photo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy module inspection photo"
+      }
+    ],
+    "datasheets": [
+      {
+        "label": "Dummy 575W Datasheet",
+        "filename": "dummy-575w-module.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 345678,
+        "id": "ds-dummy-test-module-660271-1"
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Dummy Test Solar Module 660271",
+        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
+        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
+        "metaTitle": "Dummy Test Solar Module 660271 | Admin Dummy",
+        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+      },
+      {
+        "locale": "id",
+        "name": "Modul Surya Dummy Test 660271",
+        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
+        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
+        "metaTitle": "Modul Surya Dummy Test 660271 | Dummy Admin",
+        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+      }
+    ],
+    "id": "prod-dummy-test-module-660271"
+  },
+  {
+    "sku": "TEST-PV-901085",
+    "slug": "dummy-test-module-901085",
+    "category": "PV Module",
+    "productLine": "QA Sandbox",
+    "featured": false,
+    "powerW": 575,
+    "efficiency": 22.4,
+    "cells": "144 half-cell N-type",
+    "warranty": "15-year product / 30-year linear output",
+    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "Dummy feature for admin create-product testing",
+      "Supports quick validation of form submission flow",
+      "Contains complete bilingual content for QA checks"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "TUV",
+      "CE"
+    ],
+    "specs": {
+      "Maximum power": "575 W",
+      "Module efficiency": "22.4%",
+      "Open-circuit voltage": "51.2 V",
+      "Short-circuit current": "14.3 A",
+      "Dimensions": "2278 x 1134 x 35 mm",
+      "Weight": "28.9 kg"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy utility-scale installation photo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy module inspection photo"
+      }
+    ],
+    "datasheets": [
+      {
+        "label": "Dummy 575W Datasheet",
+        "filename": "dummy-575w-module.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 345678,
+        "id": "ds-dummy-test-module-901085-1"
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Dummy Test Solar Module 901085",
+        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
+        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
+        "metaTitle": "Dummy Test Solar Module 901085 | Admin Dummy",
+        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+      },
+      {
+        "locale": "id",
+        "name": "Modul Surya Dummy Test 901085",
+        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
+        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
+        "metaTitle": "Modul Surya Dummy Test 901085 | Dummy Admin",
+        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+      }
+    ],
+    "id": "prod-dummy-test-module-901085"
+  },
+  {
+    "sku": "TEST-PV-534588",
+    "slug": "dummy-test-module-534588",
+    "category": "PV Module",
+    "productLine": "QA Sandbox",
+    "featured": false,
+    "powerW": 575,
+    "efficiency": 22.4,
+    "cells": "144 half-cell N-type",
+    "warranty": "15-year product / 30-year linear output",
+    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "features": [
+      "Dummy feature for admin create-product testing",
+      "Supports quick validation of form submission flow",
+      "Contains complete bilingual content for QA checks"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "TUV",
+      "CE"
+    ],
+    "specs": {
+      "Maximum power": "575 W",
+      "Module efficiency": "22.4%",
+      "Open-circuit voltage": "51.2 V",
+      "Short-circuit current": "14.3 A",
+      "Dimensions": "2278 x 1134 x 35 mm",
+      "Weight": "28.9 kg"
+    },
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy utility-scale installation photo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Dummy module inspection photo"
+      }
+    ],
+    "datasheets": [
+      {
+        "label": "Dummy 575W Datasheet",
+        "filename": "dummy-575w-module.pdf",
+        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "fileSize": 345678,
+        "id": "ds-dummy-test-module-534588-1"
+      }
+    ],
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Dummy Test Solar Module 534588",
+        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
+        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
+        "metaTitle": "Dummy Test Solar Module 534588 | Admin Dummy",
+        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+      },
+      {
+        "locale": "id",
+        "name": "Modul Surya Dummy Test 534588",
+        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
+        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
+        "metaTitle": "Modul Surya Dummy Test 534588 | Dummy Admin",
+        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+      }
+    ],
+    "id": "prod-dummy-test-module-534588"
+  }
+]
