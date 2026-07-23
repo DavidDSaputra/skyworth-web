@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "zip": "git archive --format=zip HEAD -o source-code.zip"
+    "zip": "git archive --format=zip HEAD -o source-code.zip",
+    "deploy:zip": "next build && node scripts/package-standalone.cjs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
