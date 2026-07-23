@@ -264,7 +264,11 @@ export function ProductDetail({
               </p>
               <dl className="mt-6 grid gap-5">
                 <Spec label="SKU" value={product.sku} tone="warm" />
-                <Spec label="Cells" value={product.cells} tone="warm" />
+                <Spec
+                  label={product.category === "PV Module" ? "Cells" : "Configuration"}
+                  value={product.cells}
+                  tone="warm"
+                />
                 <Spec
                   label="Datasheet size"
                   value={

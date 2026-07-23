@@ -36,8 +36,17 @@ const translationSchema = z.object({
     .min(10, "Meta description must be at least 10 characters"),
 });
 
+const imageRefSchema = z
+  .string()
+  .trim()
+  .min(1, "Image path is required")
+  .refine(
+    (value) => /^https?:\/\//.test(value) || value.startsWith("/"),
+    "Must be a full URL or a root-relative path starting with /",
+  );
+
 const galleryItemSchema = z.object({
-  url: z.url("Gallery image URL must be valid"),
+  url: imageRefSchema,
   caption: z.string().trim().min(2, "Gallery caption is required"),
 });
 
@@ -64,8 +73,8 @@ export const productSchema = z
     efficiency: z.coerce.number().positive("Efficiency must be greater than zero"),
     cells: z.string().trim().min(2, "Cell configuration is required"),
     warranty: z.string().trim().min(2, "Warranty is required"),
-    thumbnail: z.url("Thumbnail URL must be valid"),
-    heroImage: z.url("Hero image URL must be valid"),
+    thumbnail: imageRefSchema,
+    heroImage: imageRefSchema,
     features: z
       .array(z.string().trim().min(2))
       .min(1, "At least one product feature is required"),

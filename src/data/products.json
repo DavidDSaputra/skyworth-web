@@ -207,213 +207,1080 @@
     ]
   },
   {
-    "sku": "TEST-PV-660271",
-    "slug": "dummy-test-module-660271",
-    "category": "PV Module",
-    "productLine": "QA Sandbox",
     "featured": false,
-    "powerW": 575,
-    "efficiency": 22.4,
-    "cells": "144 half-cell N-type",
-    "warranty": "15-year product / 30-year linear output",
-    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-1-3-3ktl-s1",
+    "sku": "SKY-INV-1-3.3KTL-S1",
+    "slug": "sw-1-3-3ktl-s1",
+    "category": "PV Inverter",
+    "productLine": "Residential PV Inverter",
+    "powerW": 3300,
+    "efficiency": 97.6,
+    "cells": "Residential string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW1-3.3KTL-S1.png",
+    "heroImage": "/inverter/SW1-3.3KTL-S1.png",
     "features": [
-      "Dummy feature for admin create-product testing",
-      "Supports quick validation of form submission flow",
-      "Contains complete bilingual content for QA checks"
+      "Grid-tied string inverter for residential rooftop systems",
+      "Compact footprint for simple wall-mount installation",
+      "Part of the SW residential inverter family for consistent spare-parts planning"
     ],
     "certifications": [
-      "IEC 61215",
-      "IEC 61730",
-      "TUV",
-      "CE"
+      "CE",
+      "IEC 62109"
     ],
     "specs": {
-      "Maximum power": "575 W",
-      "Module efficiency": "22.4%",
-      "Open-circuit voltage": "51.2 V",
-      "Short-circuit current": "14.3 A",
-      "Dimensions": "2278 x 1134 x 35 mm",
-      "Weight": "28.9 kg"
+      "Power class": "1-3.3kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Residential",
+      "Mounting": "Wall-mount"
     },
-    "gallery": [
-      {
-        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy utility-scale installation photo"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy module inspection photo"
-      }
-    ],
-    "datasheets": [
-      {
-        "label": "Dummy 575W Datasheet",
-        "filename": "dummy-575w-module.pdf",
-        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-        "fileSize": 345678,
-        "id": "ds-dummy-test-module-660271-1"
-      }
-    ],
     "translations": [
       {
         "locale": "en",
-        "name": "Dummy Test Solar Module 660271",
-        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
-        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
-        "metaTitle": "Dummy Test Solar Module 660271 | Admin Dummy",
-        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+        "name": "SW 1-3.3KTL-S1",
+        "shortDescription": "Grid-tied string inverter for residential solar systems, 1-3.3kW output class.",
+        "description": "The SW 1-3.3KTL-S1 is a residential string inverter built for stable DC-to-AC conversion in home and small commercial solar systems within the 1-3.3kW class. It is part of Skyworth's SW residential inverter family, designed for straightforward installation and dependable day-to-day performance across grid-tied rooftop projects.",
+        "metaTitle": "SW 1-3.3KTL-S1 Residential PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 1-3.3KTL-S1 residential grid-tied string inverter (1-3.3kW)."
       },
       {
         "locale": "id",
-        "name": "Modul Surya Dummy Test 660271",
-        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
-        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
-        "metaTitle": "Modul Surya Dummy Test 660271 | Dummy Admin",
-        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+        "name": "SW 1-3.3KTL-S1",
+        "shortDescription": "Inverter string on-grid untuk sistem surya residensial, kelas daya 1-3.3kW.",
+        "description": "SW 1-3.3KTL-S1 adalah inverter string residensial yang dirancang untuk konversi DC ke AC yang stabil pada sistem surya rumah dan komersial kecil di kelas daya 1-3.3kW. Produk ini merupakan bagian dari keluarga inverter residensial SW Skyworth, dibuat untuk pemasangan yang mudah dan performa harian yang andal pada proyek rooftop on-grid.",
+        "metaTitle": "SW 1-3.3KTL-S1 Inverter PV Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string on-grid residensial Skyworth SW 1-3.3KTL-S1 (1-3.3kW)."
       }
-    ],
-    "id": "prod-dummy-test-module-660271"
+    ]
   },
   {
-    "sku": "TEST-PV-901085",
-    "slug": "dummy-test-module-901085",
-    "category": "PV Module",
-    "productLine": "QA Sandbox",
     "featured": false,
-    "powerW": 575,
-    "efficiency": 22.4,
-    "cells": "144 half-cell N-type",
-    "warranty": "15-year product / 30-year linear output",
-    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-4-6ktl-s1",
+    "sku": "SKY-INV-4-6KTL-S1",
+    "slug": "sw-4-6ktl-s1",
+    "category": "PV Inverter",
+    "productLine": "Residential PV Inverter",
+    "powerW": 6000,
+    "efficiency": 98,
+    "cells": "Residential string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW 4-6KTL-S1.png",
+    "heroImage": "/inverter/SW 4-6KTL-S1.png",
     "features": [
-      "Dummy feature for admin create-product testing",
-      "Supports quick validation of form submission flow",
-      "Contains complete bilingual content for QA checks"
+      "Grid-tied string inverter for residential rooftop systems",
+      "Compact footprint for simple wall-mount installation",
+      "Part of the SW residential inverter family for consistent spare-parts planning"
     ],
     "certifications": [
-      "IEC 61215",
-      "IEC 61730",
-      "TUV",
-      "CE"
+      "CE",
+      "IEC 62109"
     ],
     "specs": {
-      "Maximum power": "575 W",
-      "Module efficiency": "22.4%",
-      "Open-circuit voltage": "51.2 V",
-      "Short-circuit current": "14.3 A",
-      "Dimensions": "2278 x 1134 x 35 mm",
-      "Weight": "28.9 kg"
+      "Power class": "4-6kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Residential",
+      "Mounting": "Wall-mount"
     },
-    "gallery": [
-      {
-        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy utility-scale installation photo"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy module inspection photo"
-      }
-    ],
-    "datasheets": [
-      {
-        "label": "Dummy 575W Datasheet",
-        "filename": "dummy-575w-module.pdf",
-        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-        "fileSize": 345678,
-        "id": "ds-dummy-test-module-901085-1"
-      }
-    ],
     "translations": [
       {
         "locale": "en",
-        "name": "Dummy Test Solar Module 901085",
-        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
-        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
-        "metaTitle": "Dummy Test Solar Module 901085 | Admin Dummy",
-        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+        "name": "SW 4-6KTL-S1",
+        "shortDescription": "Grid-tied string inverter for residential solar systems, 4-6kW output class.",
+        "description": "The SW 4-6KTL-S1 is a residential string inverter built for stable DC-to-AC conversion in home and small commercial solar systems within the 4-6kW class. It is part of Skyworth's SW residential inverter family, designed for straightforward installation and dependable day-to-day performance across grid-tied rooftop projects.",
+        "metaTitle": "SW 4-6KTL-S1 Residential PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 4-6KTL-S1 residential grid-tied string inverter (4-6kW)."
       },
       {
         "locale": "id",
-        "name": "Modul Surya Dummy Test 901085",
-        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
-        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
-        "metaTitle": "Modul Surya Dummy Test 901085 | Dummy Admin",
-        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+        "name": "SW 4-6KTL-S1",
+        "shortDescription": "Inverter string on-grid untuk sistem surya residensial, kelas daya 4-6kW.",
+        "description": "SW 4-6KTL-S1 adalah inverter string residensial yang dirancang untuk konversi DC ke AC yang stabil pada sistem surya rumah dan komersial kecil di kelas daya 4-6kW. Produk ini merupakan bagian dari keluarga inverter residensial SW Skyworth, dibuat untuk pemasangan yang mudah dan performa harian yang andal pada proyek rooftop on-grid.",
+        "metaTitle": "SW 4-6KTL-S1 Inverter PV Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string on-grid residensial Skyworth SW 4-6KTL-S1 (4-6kW)."
       }
-    ],
-    "id": "prod-dummy-test-module-901085"
+    ]
   },
   {
-    "sku": "TEST-PV-534588",
-    "slug": "dummy-test-module-534588",
-    "category": "PV Module",
-    "productLine": "QA Sandbox",
     "featured": false,
-    "powerW": 575,
-    "efficiency": 22.4,
-    "cells": "144 half-cell N-type",
-    "warranty": "15-year product / 30-year linear output",
-    "thumbnail": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-7-10ktl-s1",
+    "sku": "SKY-INV-7-10KTL-S1",
+    "slug": "sw-7-10ktl-s1",
+    "category": "PV Inverter",
+    "productLine": "Residential PV Inverter",
+    "powerW": 10000,
+    "efficiency": 98.2,
+    "cells": "Residential string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW 7-10KTL-S1.png",
+    "heroImage": "/inverter/SW 7-10KTL-S1.png",
     "features": [
-      "Dummy feature for admin create-product testing",
-      "Supports quick validation of form submission flow",
-      "Contains complete bilingual content for QA checks"
+      "Grid-tied string inverter for residential rooftop systems",
+      "Compact footprint for simple wall-mount installation",
+      "Part of the SW residential inverter family for consistent spare-parts planning"
+    ],
+    "certifications": [
+      "CE",
+      "IEC 62109"
+    ],
+    "specs": {
+      "Power class": "7-10kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Residential",
+      "Mounting": "Wall-mount"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SW 7-10KTL-S1",
+        "shortDescription": "Grid-tied string inverter for residential solar systems, 7-10kW output class.",
+        "description": "The SW 7-10KTL-S1 is a residential string inverter built for stable DC-to-AC conversion in home and small commercial solar systems within the 7-10kW class. It is part of Skyworth's SW residential inverter family, designed for straightforward installation and dependable day-to-day performance across grid-tied rooftop projects.",
+        "metaTitle": "SW 7-10KTL-S1 Residential PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 7-10KTL-S1 residential grid-tied string inverter (7-10kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SW 7-10KTL-S1",
+        "shortDescription": "Inverter string on-grid untuk sistem surya residensial, kelas daya 7-10kW.",
+        "description": "SW 7-10KTL-S1 adalah inverter string residensial yang dirancang untuk konversi DC ke AC yang stabil pada sistem surya rumah dan komersial kecil di kelas daya 7-10kW. Produk ini merupakan bagian dari keluarga inverter residensial SW Skyworth, dibuat untuk pemasangan yang mudah dan performa harian yang andal pada proyek rooftop on-grid.",
+        "metaTitle": "SW 7-10KTL-S1 Inverter PV Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string on-grid residensial Skyworth SW 7-10KTL-S1 (7-10kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-10-25ktl-s1",
+    "sku": "SKY-INV-10-25KTL-S1",
+    "slug": "sw-10-25ktl-s1",
+    "category": "PV Inverter",
+    "productLine": "Residential PV Inverter",
+    "powerW": 25000,
+    "efficiency": 98.6,
+    "cells": "Residential string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW 10-25KTL-S1.png",
+    "heroImage": "/inverter/SW 10-25KTL-S1.png",
+    "features": [
+      "Grid-tied string inverter for residential rooftop systems",
+      "Compact footprint for simple wall-mount installation",
+      "Part of the SW residential inverter family for consistent spare-parts planning"
+    ],
+    "certifications": [
+      "CE",
+      "IEC 62109"
+    ],
+    "specs": {
+      "Power class": "10-25kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Residential",
+      "Mounting": "Wall-mount"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SW 10-25KTL-S1",
+        "shortDescription": "Grid-tied string inverter for residential solar systems, 10-25kW output class.",
+        "description": "The SW 10-25KTL-S1 is a residential string inverter built for stable DC-to-AC conversion in home and small commercial solar systems within the 10-25kW class. It is part of Skyworth's SW residential inverter family, designed for straightforward installation and dependable day-to-day performance across grid-tied rooftop projects.",
+        "metaTitle": "SW 10-25KTL-S1 Residential PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 10-25KTL-S1 residential grid-tied string inverter (10-25kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SW 10-25KTL-S1",
+        "shortDescription": "Inverter string on-grid untuk sistem surya residensial, kelas daya 10-25kW.",
+        "description": "SW 10-25KTL-S1 adalah inverter string residensial yang dirancang untuk konversi DC ke AC yang stabil pada sistem surya rumah dan komersial kecil di kelas daya 10-25kW. Produk ini merupakan bagian dari keluarga inverter residensial SW Skyworth, dibuat untuk pemasangan yang mudah dan performa harian yang andal pada proyek rooftop on-grid.",
+        "metaTitle": "SW 10-25KTL-S1 Inverter PV Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string on-grid residensial Skyworth SW 10-25KTL-S1 (10-25kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-30-33ktl-s1",
+    "sku": "SKY-INV-30-33KTL-S1",
+    "slug": "sw-30-33ktl-s1",
+    "category": "PV Inverter",
+    "productLine": "Business PV Inverter",
+    "powerW": 33000,
+    "efficiency": 98.8,
+    "cells": "Business string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW 30-33KTL-S1.png",
+    "heroImage": "/inverter/SW 30-33KTL-S1.png",
+    "features": [
+      "Three-phase string inverter for commercial and industrial arrays",
+      "Higher power class suited to multi-inverter site layouts",
+      "Shares the SW platform with the residential range for procurement standardization"
+    ],
+    "certifications": [
+      "CE",
+      "IEC 62109"
+    ],
+    "specs": {
+      "Power class": "30-33kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Business",
+      "Phases": "Three-phase"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SW 30-33KTL-S1",
+        "shortDescription": "Three-phase string inverter for commercial and industrial solar, 30-33kW output class.",
+        "description": "The SW 30-33KTL-S1 is a business-tier string inverter engineered for commercial and industrial rooftop or ground-mount solar systems in the 30-33kW class. It extends Skyworth's SW inverter platform to higher power projects that need dependable conversion efficiency and simplified multi-unit deployment.",
+        "metaTitle": "SW 30-33KTL-S1 Business PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 30-33KTL-S1 commercial-scale string inverter (30-33kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SW 30-33KTL-S1",
+        "shortDescription": "Inverter string tiga fasa untuk sistem surya komersial dan industri, kelas daya 30-33kW.",
+        "description": "SW 30-33KTL-S1 adalah inverter tingkat bisnis yang dirancang untuk sistem surya rooftop atau ground-mount komersial dan industri di kelas daya 30-33kW. Produk ini memperluas platform inverter SW Skyworth ke proyek berdaya lebih tinggi yang membutuhkan efisiensi konversi yang andal dan penerapan multi-unit yang lebih sederhana.",
+        "metaTitle": "SW 30-33KTL-S1 Inverter PV Bisnis",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string skala komersial Skyworth SW 30-33KTL-S1 (30-33kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sw-40-60ktl-t1",
+    "sku": "SKY-INV-40-60KTL-T1",
+    "slug": "sw-40-60ktl-t1",
+    "category": "PV Inverter",
+    "productLine": "Business PV Inverter",
+    "powerW": 60000,
+    "efficiency": 98.8,
+    "cells": "Business string inverter",
+    "warranty": "5-year standard / 10-year extended",
+    "thumbnail": "/inverter/SW 40-60KTL-T1.png",
+    "heroImage": "/inverter/SW 40-60KTL-T1.png",
+    "features": [
+      "Three-phase string inverter for commercial and industrial arrays",
+      "Higher power class suited to multi-inverter site layouts",
+      "Shares the SW platform with the residential range for procurement standardization"
+    ],
+    "certifications": [
+      "CE",
+      "IEC 62109"
+    ],
+    "specs": {
+      "Power class": "40-60kW",
+      "Inverter type": "Grid-tied string inverter",
+      "Product tier": "Business",
+      "Phases": "Three-phase"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SW 40-60KTL-T1",
+        "shortDescription": "Three-phase string inverter for commercial and industrial solar, 40-60kW output class.",
+        "description": "The SW 40-60KTL-T1 is a business-tier string inverter engineered for commercial and industrial rooftop or ground-mount solar systems in the 40-60kW class. It extends Skyworth's SW inverter platform to higher power projects that need dependable conversion efficiency and simplified multi-unit deployment.",
+        "metaTitle": "SW 40-60KTL-T1 Business PV Inverter",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SW 40-60KTL-T1 commercial-scale string inverter (40-60kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SW 40-60KTL-T1",
+        "shortDescription": "Inverter string tiga fasa untuk sistem surya komersial dan industri, kelas daya 40-60kW.",
+        "description": "SW 40-60KTL-T1 adalah inverter tingkat bisnis yang dirancang untuk sistem surya rooftop atau ground-mount komersial dan industri di kelas daya 40-60kW. Produk ini memperluas platform inverter SW Skyworth ke proyek berdaya lebih tinggi yang membutuhkan efisiensi konversi yang andal dan penerapan multi-unit yang lebih sederhana.",
+        "metaTitle": "SW 40-60KTL-T1 Inverter PV Bisnis",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk inverter string skala komersial Skyworth SW 40-60KTL-T1 (40-60kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-swh-3-6kh-s1",
+    "sku": "SKY-ESS-3-6KH-S1",
+    "slug": "swh-3-6kh-s1",
+    "category": "Battery Storage System",
+    "productLine": "Residential ESS",
+    "powerW": 6000,
+    "efficiency": 95,
+    "cells": "LFP energy storage module",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWH 3-6KH-S1.png",
+    "heroImage": "/batre/SWH 3-6KH-S1.png",
+    "features": [
+      "Residential battery module for solar self-consumption and backup",
+      "Designed for straightforward pairing with rooftop PV systems",
+      "Part of the SWH/SWR home battery lineup"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "3-6kW",
+      "System type": "Residential battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "Residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWH 3-6KH-S1",
+        "shortDescription": "Residential battery energy storage module, 3-6kW capacity class.",
+        "description": "The SWH 3-6KH-S1 is a residential energy storage system built to pair with rooftop solar and keep essential loads running through outages or peak-rate periods. Sized in the 3-6kW class, it is part of Skyworth's SWH/SWR home battery lineup, aimed at simple installation and predictable day-to-day charge/discharge behavior.",
+        "metaTitle": "SWH 3-6KH-S1 Residential Battery Storage",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWH 3-6KH-S1 residential energy storage system (3-6kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SWH 3-6KH-S1",
+        "shortDescription": "Modul penyimpanan energi baterai residensial, kelas kapasitas 3-6kW.",
+        "description": "SWH 3-6KH-S1 adalah sistem penyimpanan energi residensial yang dirancang untuk dipasangkan dengan panel surya rooftop dan menjaga beban penting tetap menyala saat listrik padam atau pada periode tarif puncak. Dengan kelas kapasitas 3-6kW, produk ini merupakan bagian dari lini baterai rumah SWH/SWR Skyworth yang mengutamakan pemasangan sederhana dan perilaku pengisian/pemakaian harian yang dapat diprediksi.",
+        "metaTitle": "SWH 3-6KH-S1 Baterai Penyimpanan Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi residensial Skyworth SWH 3-6KH-S1 (3-6kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-swh-3-6kl-s1",
+    "sku": "SKY-ESS-3-6KL-S1",
+    "slug": "swh-3-6kl-s1",
+    "category": "Battery Storage System",
+    "productLine": "Residential ESS",
+    "powerW": 6000,
+    "efficiency": 95,
+    "cells": "LFP energy storage module",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWH 3-6KL-S1.png",
+    "heroImage": "/batre/SWH 3-6KL-S1.png",
+    "features": [
+      "Residential battery module for solar self-consumption and backup",
+      "Designed for straightforward pairing with rooftop PV systems",
+      "Part of the SWH/SWR home battery lineup"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "3-6kW",
+      "System type": "Residential battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "Residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWH 3-6KL-S1",
+        "shortDescription": "Residential battery energy storage module, 3-6kW capacity class.",
+        "description": "The SWH 3-6KL-S1 is a residential energy storage system built to pair with rooftop solar and keep essential loads running through outages or peak-rate periods. Sized in the 3-6kW class, it is part of Skyworth's SWH/SWR home battery lineup, aimed at simple installation and predictable day-to-day charge/discharge behavior.",
+        "metaTitle": "SWH 3-6KL-S1 Residential Battery Storage",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWH 3-6KL-S1 residential energy storage system (3-6kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SWH 3-6KL-S1",
+        "shortDescription": "Modul penyimpanan energi baterai residensial, kelas kapasitas 3-6kW.",
+        "description": "SWH 3-6KL-S1 adalah sistem penyimpanan energi residensial yang dirancang untuk dipasangkan dengan panel surya rooftop dan menjaga beban penting tetap menyala saat listrik padam atau pada periode tarif puncak. Dengan kelas kapasitas 3-6kW, produk ini merupakan bagian dari lini baterai rumah SWH/SWR Skyworth yang mengutamakan pemasangan sederhana dan perilaku pengisian/pemakaian harian yang dapat diprediksi.",
+        "metaTitle": "SWH 3-6KL-S1 Baterai Penyimpanan Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi residensial Skyworth SWH 3-6KL-S1 (3-6kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-swh-5-15kh-t1",
+    "sku": "SKY-ESS-5-15KH-T1",
+    "slug": "swh-5-15kh-t1",
+    "category": "Battery Storage System",
+    "productLine": "Residential ESS",
+    "powerW": 15000,
+    "efficiency": 95.5,
+    "cells": "LFP energy storage module",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWH 5-15KH-T1.png",
+    "heroImage": "/batre/SWH 5-15KH-T1.png",
+    "features": [
+      "Residential battery module for solar self-consumption and backup",
+      "Designed for straightforward pairing with rooftop PV systems",
+      "Part of the SWH/SWR home battery lineup"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "5-15kW",
+      "System type": "Residential battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "Residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWH 5-15KH-T1",
+        "shortDescription": "Residential battery energy storage module, 5-15kW capacity class.",
+        "description": "The SWH 5-15KH-T1 is a residential energy storage system built to pair with rooftop solar and keep essential loads running through outages or peak-rate periods. Sized in the 5-15kW class, it is part of Skyworth's SWH/SWR home battery lineup, aimed at simple installation and predictable day-to-day charge/discharge behavior.",
+        "metaTitle": "SWH 5-15KH-T1 Residential Battery Storage",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWH 5-15KH-T1 residential energy storage system (5-15kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SWH 5-15KH-T1",
+        "shortDescription": "Modul penyimpanan energi baterai residensial, kelas kapasitas 5-15kW.",
+        "description": "SWH 5-15KH-T1 adalah sistem penyimpanan energi residensial yang dirancang untuk dipasangkan dengan panel surya rooftop dan menjaga beban penting tetap menyala saat listrik padam atau pada periode tarif puncak. Dengan kelas kapasitas 5-15kW, produk ini merupakan bagian dari lini baterai rumah SWH/SWR Skyworth yang mengutamakan pemasangan sederhana dan perilaku pengisian/pemakaian harian yang dapat diprediksi.",
+        "metaTitle": "SWH 5-15KH-T1 Baterai Penyimpanan Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi residensial Skyworth SWH 5-15KH-T1 (5-15kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-swr5-12-20-48-h1",
+    "sku": "SKY-ESS-5.12--20.48-H1",
+    "slug": "swr5-12-20-48-h1",
+    "category": "Battery Storage System",
+    "productLine": "Residential ESS",
+    "powerW": 20480,
+    "efficiency": 96,
+    "cells": "LFP energy storage module",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWR5.12--20.48-H1.png",
+    "heroImage": "/batre/SWR5.12--20.48-H1.png",
+    "features": [
+      "Residential battery module for solar self-consumption and backup",
+      "Designed for straightforward pairing with rooftop PV systems",
+      "Part of the SWH/SWR home battery lineup"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "5.12-20.48kWh",
+      "System type": "Residential battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "Residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWR5.12--20.48-H1",
+        "shortDescription": "Residential battery energy storage module, 5.12-20.48kWh capacity class.",
+        "description": "The SWR5.12--20.48-H1 is a residential energy storage system built to pair with rooftop solar and keep essential loads running through outages or peak-rate periods. Sized in the 5.12-20.48kWh class, it is part of Skyworth's SWH/SWR home battery lineup, aimed at simple installation and predictable day-to-day charge/discharge behavior.",
+        "metaTitle": "SWR5.12--20.48-H1 Residential Battery Storage",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWR5.12--20.48-H1 residential energy storage system (5.12-20.48kWh)."
+      },
+      {
+        "locale": "id",
+        "name": "SWR5.12--20.48-H1",
+        "shortDescription": "Modul penyimpanan energi baterai residensial, kelas kapasitas 5.12-20.48kWh.",
+        "description": "SWR5.12--20.48-H1 adalah sistem penyimpanan energi residensial yang dirancang untuk dipasangkan dengan panel surya rooftop dan menjaga beban penting tetap menyala saat listrik padam atau pada periode tarif puncak. Dengan kelas kapasitas 5.12-20.48kWh, produk ini merupakan bagian dari lini baterai rumah SWH/SWR Skyworth yang mengutamakan pemasangan sederhana dan perilaku pengisian/pemakaian harian yang dapat diprediksi.",
+        "metaTitle": "SWR5.12--20.48-H1 Baterai Penyimpanan Residensial",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi residensial Skyworth SWR5.12--20.48-H1 (5.12-20.48kWh)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-svh-29-50kh-t1",
+    "sku": "SKY-ESS-29-50KH-T1",
+    "slug": "svh-29-50kh-t1",
+    "category": "Battery Storage System",
+    "productLine": "C&I ESS",
+    "powerW": 50000,
+    "efficiency": 95,
+    "cells": "LFP energy storage system",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SVH 29-50KH-T1.png",
+    "heroImage": "/batre/SVH 29-50KH-T1.png",
+    "features": [
+      "Commercial & industrial battery system for demand-charge management",
+      "Cabinet-format capacity built for facility-scale deployment",
+      "Scales across multiple units for larger site capacity"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "29-50kW",
+      "System type": "Commercial & industrial battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "C&I"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SVH 29-50KH-T1",
+        "shortDescription": "Commercial & industrial battery energy storage system, 29-50kW capacity class.",
+        "description": "The SVH 29-50KH-T1 is a commercial and industrial energy storage system for demand-charge management, backup power, and solar self-consumption at facility scale. Built in the 29-50kW class, it extends Skyworth's ESS platform to larger sites that need containerized or cabinet-format capacity with straightforward multi-unit scaling.",
+        "metaTitle": "SVH 29-50KH-T1 C&I Battery Storage System",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SVH 29-50KH-T1 commercial & industrial energy storage system (29-50kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SVH 29-50KH-T1",
+        "shortDescription": "Sistem penyimpanan energi baterai komersial & industri, kelas kapasitas 29-50kW.",
+        "description": "SVH 29-50KH-T1 adalah sistem penyimpanan energi komersial dan industri untuk manajemen demand charge, daya cadangan, dan konsumsi mandiri energi surya pada skala fasilitas. Dibuat dalam kelas kapasitas 29-50kW, produk ini memperluas platform ESS Skyworth ke lokasi yang lebih besar dengan kapasitas format kabinet yang mudah diperluas secara multi-unit.",
+        "metaTitle": "SVH 29-50KH-T1 Sistem Penyimpanan Baterai C&I",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi komersial & industri Skyworth SVH 29-50KH-T1 (29-50kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sws-p50e100-hc",
+    "sku": "SKY-ESS-P50E100-HC",
+    "slug": "sws-p50e100-hc",
+    "category": "Battery Storage System",
+    "productLine": "C&I ESS",
+    "powerW": 100000,
+    "efficiency": 95.5,
+    "cells": "LFP energy storage system",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWS-P50E100-HC.png",
+    "heroImage": "/batre/SWS-P50E100-HC.png",
+    "features": [
+      "Commercial & industrial battery system for demand-charge management",
+      "Cabinet-format capacity built for facility-scale deployment",
+      "Scales across multiple units for larger site capacity"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "50-100kW",
+      "System type": "Commercial & industrial battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "C&I"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWS-P50E100-HC",
+        "shortDescription": "Commercial & industrial battery energy storage system, 50-100kW capacity class.",
+        "description": "The SWS-P50E100-HC is a commercial and industrial energy storage system for demand-charge management, backup power, and solar self-consumption at facility scale. Built in the 50-100kW class, it extends Skyworth's ESS platform to larger sites that need containerized or cabinet-format capacity with straightforward multi-unit scaling.",
+        "metaTitle": "SWS-P50E100-HC C&I Battery Storage System",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWS-P50E100-HC commercial & industrial energy storage system (50-100kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SWS-P50E100-HC",
+        "shortDescription": "Sistem penyimpanan energi baterai komersial & industri, kelas kapasitas 50-100kW.",
+        "description": "SWS-P50E100-HC adalah sistem penyimpanan energi komersial dan industri untuk manajemen demand charge, daya cadangan, dan konsumsi mandiri energi surya pada skala fasilitas. Dibuat dalam kelas kapasitas 50-100kW, produk ini memperluas platform ESS Skyworth ke lokasi yang lebih besar dengan kapasitas format kabinet yang mudah diperluas secara multi-unit.",
+        "metaTitle": "SWS-P50E100-HC Sistem Penyimpanan Baterai C&I",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi komersial & industri Skyworth SWS-P50E100-HC (50-100kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-sws-p100e215-hc",
+    "sku": "SKY-ESS-P100E215-HC",
+    "slug": "sws-p100e215-hc",
+    "category": "Battery Storage System",
+    "productLine": "C&I ESS",
+    "powerW": 215000,
+    "efficiency": 96,
+    "cells": "LFP energy storage system",
+    "warranty": "10-year product warranty",
+    "thumbnail": "/batre/SWS-P100E215-HC.png",
+    "heroImage": "/batre/SWS-P100E215-HC.png",
+    "features": [
+      "Commercial & industrial battery system for demand-charge management",
+      "Cabinet-format capacity built for facility-scale deployment",
+      "Scales across multiple units for larger site capacity"
+    ],
+    "certifications": [
+      "CE",
+      "UN38.3"
+    ],
+    "specs": {
+      "Capacity class": "100-215kW",
+      "System type": "Commercial & industrial battery energy storage",
+      "Chemistry": "LFP (LiFePO4)",
+      "Product tier": "C&I"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "SWS-P100E215-HC",
+        "shortDescription": "Commercial & industrial battery energy storage system, 100-215kW capacity class.",
+        "description": "The SWS-P100E215-HC is a commercial and industrial energy storage system for demand-charge management, backup power, and solar self-consumption at facility scale. Built in the 100-215kW class, it extends Skyworth's ESS platform to larger sites that need containerized or cabinet-format capacity with straightforward multi-unit scaling.",
+        "metaTitle": "SWS-P100E215-HC C&I Battery Storage System",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth SWS-P100E215-HC commercial & industrial energy storage system (100-215kW)."
+      },
+      {
+        "locale": "id",
+        "name": "SWS-P100E215-HC",
+        "shortDescription": "Sistem penyimpanan energi baterai komersial & industri, kelas kapasitas 100-215kW.",
+        "description": "SWS-P100E215-HC adalah sistem penyimpanan energi komersial dan industri untuk manajemen demand charge, daya cadangan, dan konsumsi mandiri energi surya pada skala fasilitas. Dibuat dalam kelas kapasitas 100-215kW, produk ini memperluas platform ESS Skyworth ke lokasi yang lebih besar dengan kapasitas format kabinet yang mudah diperluas secara multi-unit.",
+        "metaTitle": "SWS-P100E215-HC Sistem Penyimpanan Baterai C&I",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk sistem penyimpanan energi komersial & industri Skyworth SWS-P100E215-HC (100-215kW)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-balcony-railing-mounting-430w",
+    "sku": "SKY-BAL-RAILING-430",
+    "slug": "balcony-railing-mounting-430w",
+    "category": "Balcony Solar",
+    "productLine": "Residential Balcony Solar",
+    "powerW": 430,
+    "efficiency": 21,
+    "cells": "430W module + railing bracket kit",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/residential solar/RailingMountingsmall-942.png",
+    "heroImage": "/residential solar/RailingMountingsmall-942.png",
+    "features": [
+      "430W module paired with a dedicated mounting bracket kit",
+      "Sized for balcony and small residential installations",
+      "Simple entry point into distributed solar generation"
     ],
     "certifications": [
       "IEC 61215",
       "IEC 61730",
-      "TUV",
       "CE"
     ],
     "specs": {
-      "Maximum power": "575 W",
-      "Module efficiency": "22.4%",
-      "Open-circuit voltage": "51.2 V",
-      "Short-circuit current": "14.3 A",
-      "Dimensions": "2278 x 1134 x 35 mm",
-      "Weight": "28.9 kg"
+      "Module power": "430 W",
+      "Mounting type": "Railing Mounting",
+      "Application": "Balcony / small residential"
     },
-    "gallery": [
-      {
-        "url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy utility-scale installation photo"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
-        "caption": "Dummy module inspection photo"
-      }
-    ],
-    "datasheets": [
-      {
-        "label": "Dummy 575W Datasheet",
-        "filename": "dummy-575w-module.pdf",
-        "storageUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-        "fileSize": 345678,
-        "id": "ds-dummy-test-module-534588-1"
-      }
-    ],
     "translations": [
       {
         "locale": "en",
-        "name": "Dummy Test Solar Module 534588",
-        "shortDescription": "Dummy product entry for testing whether the admin form can create a valid product.",
-        "description": "This dummy solar module record is intended for QA and admin testing. It includes complete product metadata, specifications, gallery assets, and datasheet references so the create-product flow can be validated end to end.",
-        "metaTitle": "Dummy Test Solar Module 534588 | Admin Dummy",
-        "metaDescription": "Dummy admin product used to verify create-product submission, validation, and catalog persistence."
+        "name": "Railing Mounting",
+        "shortDescription": "430W balcony solar kit with railing mounting for compact residential setups.",
+        "description": "The Railing Mounting pairs a 430W module with a railing bracket kit, designed for balcony and small residential solar setups where space and mounting surface are limited. It gives renters and homeowners a straightforward way to add distributed generation without a full rooftop array.",
+        "metaTitle": "Railing Mounting 430W Balcony Solar Kit",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth Railing Mounting 430W balcony solar mounting kit."
       },
       {
         "locale": "id",
-        "name": "Modul Surya Dummy Test 534588",
-        "shortDescription": "Entri produk dummy untuk menguji apakah form admin bisa membuat produk dengan benar.",
-        "description": "Data modul surya dummy ini dipakai untuk kebutuhan QA dan pengujian admin. Seluruh field penting seperti metadata, spesifikasi, galeri, dan datasheet sudah diisi agar alur tambah produk dapat dites dari awal sampai akhir.",
-        "metaTitle": "Modul Surya Dummy Test 534588 | Dummy Admin",
-        "metaDescription": "Produk dummy admin untuk verifikasi submit form tambah produk, validasi, dan penyimpanan katalog."
+        "name": "Railing Mounting",
+        "shortDescription": "Kit surya balkon 430W dengan pemasangan railing untuk instalasi residensial ringkas.",
+        "description": "Railing Mounting memadukan modul 430W dengan kit braket railing, dirancang untuk instalasi surya balkon dan rumah tinggal berskala kecil dengan ruang dan permukaan pemasangan yang terbatas. Produk ini memberi penyewa maupun pemilik rumah cara sederhana untuk menambah pembangkit energi terdistribusi tanpa memerlukan array atap penuh.",
+        "metaTitle": "Railing Mounting Kit Surya Balkon 430W",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk kit pemasangan surya balkon 430W Skyworth Railing Mounting."
       }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-balcony-sunshade-mounting-430w",
+    "sku": "SKY-BAL-SUNSHADE-430",
+    "slug": "balcony-sunshade-mounting-430w",
+    "category": "Balcony Solar",
+    "productLine": "Residential Balcony Solar",
+    "powerW": 430,
+    "efficiency": 21,
+    "cells": "430W module + sunshade bracket kit",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/residential solar/SunshadeMountingsmall.png",
+    "heroImage": "/residential solar/SunshadeMountingsmall.png",
+    "features": [
+      "430W module paired with a dedicated mounting bracket kit",
+      "Sized for balcony and small residential installations",
+      "Simple entry point into distributed solar generation"
     ],
-    "id": "prod-dummy-test-module-534588"
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Module power": "430 W",
+      "Mounting type": "Sunshade Mounting",
+      "Application": "Balcony / small residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Sunshade Mounting",
+        "shortDescription": "430W balcony solar kit with sunshade mounting for compact residential setups.",
+        "description": "The Sunshade Mounting pairs a 430W module with a sunshade bracket kit, designed for balcony and small residential solar setups where space and mounting surface are limited. It gives renters and homeowners a straightforward way to add distributed generation without a full rooftop array.",
+        "metaTitle": "Sunshade Mounting 430W Balcony Solar Kit",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth Sunshade Mounting 430W balcony solar mounting kit."
+      },
+      {
+        "locale": "id",
+        "name": "Sunshade Mounting",
+        "shortDescription": "Kit surya balkon 430W dengan pemasangan sunshade untuk instalasi residensial ringkas.",
+        "description": "Sunshade Mounting memadukan modul 430W dengan kit braket sunshade, dirancang untuk instalasi surya balkon dan rumah tinggal berskala kecil dengan ruang dan permukaan pemasangan yang terbatas. Produk ini memberi penyewa maupun pemilik rumah cara sederhana untuk menambah pembangkit energi terdistribusi tanpa memerlukan array atap penuh.",
+        "metaTitle": "Sunshade Mounting Kit Surya Balkon 430W",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk kit pemasangan surya balkon 430W Skyworth Sunshade Mounting."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-balcony-ground-mounting-430w",
+    "sku": "SKY-BAL-GROUND-430",
+    "slug": "balcony-ground-mounting-430w",
+    "category": "Balcony Solar",
+    "productLine": "Residential Balcony Solar",
+    "powerW": 430,
+    "efficiency": 21,
+    "cells": "430W module + ground bracket kit",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/residential solar/GroundMountingsmall.png",
+    "heroImage": "/residential solar/GroundMountingsmall.png",
+    "features": [
+      "430W module paired with a dedicated mounting bracket kit",
+      "Sized for balcony and small residential installations",
+      "Simple entry point into distributed solar generation"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Module power": "430 W",
+      "Mounting type": "Ground Mounting",
+      "Application": "Balcony / small residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Ground Mounting",
+        "shortDescription": "430W balcony solar kit with ground mounting for compact residential setups.",
+        "description": "The Ground Mounting pairs a 430W module with a ground bracket kit, designed for balcony and small residential solar setups where space and mounting surface are limited. It gives renters and homeowners a straightforward way to add distributed generation without a full rooftop array.",
+        "metaTitle": "Ground Mounting 430W Balcony Solar Kit",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth Ground Mounting 430W balcony solar mounting kit."
+      },
+      {
+        "locale": "id",
+        "name": "Ground Mounting",
+        "shortDescription": "Kit surya balkon 430W dengan pemasangan ground untuk instalasi residensial ringkas.",
+        "description": "Ground Mounting memadukan modul 430W dengan kit braket ground, dirancang untuk instalasi surya balkon dan rumah tinggal berskala kecil dengan ruang dan permukaan pemasangan yang terbatas. Produk ini memberi penyewa maupun pemilik rumah cara sederhana untuk menambah pembangkit energi terdistribusi tanpa memerlukan array atap penuh.",
+        "metaTitle": "Ground Mounting Kit Surya Balkon 430W",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk kit pemasangan surya balkon 430W Skyworth Ground Mounting."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-balcony-wall-mounting-430w",
+    "sku": "SKY-BAL-WALL-430",
+    "slug": "balcony-wall-mounting-430w",
+    "category": "Balcony Solar",
+    "productLine": "Residential Balcony Solar",
+    "powerW": 430,
+    "efficiency": 21,
+    "cells": "430W module + wall bracket kit",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/residential solar/WallMountingsmall.png",
+    "heroImage": "/residential solar/WallMountingsmall.png",
+    "features": [
+      "430W module paired with a dedicated mounting bracket kit",
+      "Sized for balcony and small residential installations",
+      "Simple entry point into distributed solar generation"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Module power": "430 W",
+      "Mounting type": "Wall Mounting",
+      "Application": "Balcony / small residential"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Wall Mounting",
+        "shortDescription": "430W balcony solar kit with wall mounting for compact residential setups.",
+        "description": "The Wall Mounting pairs a 430W module with a wall bracket kit, designed for balcony and small residential solar setups where space and mounting surface are limited. It gives renters and homeowners a straightforward way to add distributed generation without a full rooftop array.",
+        "metaTitle": "Wall Mounting 430W Balcony Solar Kit",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth Wall Mounting 430W balcony solar mounting kit."
+      },
+      {
+        "locale": "id",
+        "name": "Wall Mounting",
+        "shortDescription": "Kit surya balkon 430W dengan pemasangan dinding untuk instalasi residensial ringkas.",
+        "description": "Wall Mounting memadukan modul 430W dengan kit braket dinding, dirancang untuk instalasi surya balkon dan rumah tinggal berskala kecil dengan ruang dan permukaan pemasangan yang terbatas. Produk ini memberi penyewa maupun pemilik rumah cara sederhana untuk menambah pembangkit energi terdistribusi tanpa memerlukan array atap penuh.",
+        "metaTitle": "Wall Mounting Kit Surya Balkon 430W",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk kit pemasangan surya balkon 430W Skyworth Wall Mounting."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-pv-module-m10-series",
+    "sku": "SKY-PV-M10",
+    "slug": "pv-module-m10-series",
+    "category": "PV Module",
+    "productLine": "M10 Series",
+    "powerW": 645,
+    "efficiency": 21.2,
+    "cells": "144 half-cell mono, M10 wafer",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/PV Module/M10SERIES-893.png",
+    "heroImage": "/PV Module/M10SERIES-893.png",
+    "features": [
+      "M10 wafer platform spanning the 420-645W power range",
+      "Mid-format panel size for rooftop and mixed-scale projects",
+      "Standardized documentation for repeatable procurement review"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Power range": "420-645W",
+      "Wafer platform": "M10",
+      "Cell layout": "144 half-cell mono, M10 wafer",
+      "Module efficiency": "up to 21.2%"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth M10 Series",
+        "shortDescription": "Mono PV module series in the 420-645W power range on M10 wafer format.",
+        "description": "The M10 Series covers Skyworth's 420-645W module lineup built on the M10 wafer platform, balancing panel size and power output for rooftop and mixed-scale solar projects. It gives procurement teams a mid-format option between compact rooftop modules and the largest utility-scale panels.",
+        "metaTitle": "Skyworth M10 Series PV Module (420-645W)",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth M10 Series solar module lineup (420-645W)."
+      },
+      {
+        "locale": "id",
+        "name": "Skyworth M10 Series",
+        "shortDescription": "Seri modul PV mono pada rentang daya 420-645W dengan format wafer M10.",
+        "description": "M10 Series mencakup jajaran modul Skyworth pada rentang daya 420-645W yang dibangun di atas platform wafer M10, menyeimbangkan ukuran panel dan output daya untuk proyek surya rooftop maupun skala campuran. Seri ini memberi tim procurement pilihan format menengah antara modul rooftop yang ringkas dan panel utility-scale terbesar.",
+        "metaTitle": "Modul PV Skyworth M10 Series (420-645W)",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk jajaran modul surya Skyworth M10 Series (420-645W)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-pv-module-g12-series",
+    "sku": "SKY-PV-G12",
+    "slug": "pv-module-g12-series",
+    "category": "PV Module",
+    "productLine": "G12 Series",
+    "powerW": 720,
+    "efficiency": 22.3,
+    "cells": "132 half-cell mono, G12 wafer",
+    "warranty": "15-year product / 30-year linear output",
+    "thumbnail": "/PV Module/G12SERIES.png",
+    "heroImage": "/PV Module/G12SERIES.png",
+    "features": [
+      "Large-format G12 wafer platform spanning the 630-720W power range",
+      "Higher per-panel output for utility and large commercial arrays",
+      "Fewer panels per megawatt to simplify racking and installation labor"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Power range": "630-720W",
+      "Wafer platform": "G12",
+      "Cell layout": "132 half-cell mono, G12 wafer",
+      "Module efficiency": "up to 22.3%"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth G12 Series",
+        "shortDescription": "Mono PV module series in the 630-720W power range on G12 wafer format.",
+        "description": "The G12 Series is Skyworth's large-format module lineup in the 630-720W power range, built on G12 wafer cells to push per-panel output higher for utility and large commercial arrays. Fewer panels per megawatt can simplify racking, wiring, and installation labor on bigger projects.",
+        "metaTitle": "Skyworth G12 Series PV Module (630-720W)",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth G12 Series solar module lineup (630-720W)."
+      },
+      {
+        "locale": "id",
+        "name": "Skyworth G12 Series",
+        "shortDescription": "Seri modul PV mono pada rentang daya 630-720W dengan format wafer G12.",
+        "description": "G12 Series adalah jajaran modul format besar Skyworth pada rentang daya 630-720W, dibangun dengan sel wafer G12 untuk mendorong output per panel lebih tinggi bagi array utility dan komersial berskala besar. Jumlah panel yang lebih sedikit per megawatt dapat menyederhanakan racking, pengkabelan, dan tenaga kerja pemasangan pada proyek besar.",
+        "metaTitle": "Modul PV Skyworth G12 Series (630-720W)",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk jajaran modul surya Skyworth G12 Series (630-720W)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-pv-module-g12r-series",
+    "sku": "SKY-PV-G12R",
+    "slug": "pv-module-g12r-series",
+    "category": "PV Module",
+    "productLine": "G12R Series",
+    "powerW": 630,
+    "efficiency": 21.8,
+    "cells": "132 half-cell mono, G12R wafer",
+    "warranty": "12-year product / 25-year linear output",
+    "thumbnail": "/PV Module/G12RSERIES.png",
+    "heroImage": "/PV Module/G12RSERIES.png",
+    "features": [
+      "Rectangular G12R wafer platform spanning the 440-630W power range",
+      "Panel footprint suited to both rooftop and ground-mount layouts",
+      "Positioned between the M10 and G12 series on size and power"
+    ],
+    "certifications": [
+      "IEC 61215",
+      "IEC 61730",
+      "CE"
+    ],
+    "specs": {
+      "Power range": "440-630W",
+      "Wafer platform": "G12R",
+      "Cell layout": "132 half-cell mono, G12R wafer",
+      "Module efficiency": "up to 21.8%"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Skyworth G12R Series",
+        "shortDescription": "Mono PV module series in the 440-630W power range on G12R wafer format.",
+        "description": "The G12R Series uses a rectangular G12R wafer format to fit the 440-630W power range into a panel footprint suited to both rooftop and ground-mount layouts. It sits between the M10 and G12 series, giving procurement teams a middle ground on panel dimensions, weight, and per-unit power.",
+        "metaTitle": "Skyworth G12R Series PV Module (440-630W)",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth G12R Series solar module lineup (440-630W)."
+      },
+      {
+        "locale": "id",
+        "name": "Skyworth G12R Series",
+        "shortDescription": "Seri modul PV mono pada rentang daya 440-630W dengan format wafer G12R.",
+        "description": "G12R Series menggunakan format wafer persegi panjang G12R untuk menghadirkan rentang daya 440-630W dalam footprint panel yang cocok untuk tata letak rooftop maupun ground-mount. Seri ini berada di antara M10 dan G12 Series, memberi tim procurement titik tengah dalam dimensi panel, bobot, dan daya per unit.",
+        "metaTitle": "Modul PV Skyworth G12R Series (440-630W)",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk jajaran modul surya Skyworth G12R Series (440-630W)."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-mounting-for-tile-roof",
+    "sku": "SKY-MNT-TILE",
+    "slug": "mounting-for-tile-roof",
+    "category": "Mounting System",
+    "productLine": "Roof Mounting Hardware",
+    "powerW": 600,
+    "efficiency": 99,
+    "cells": "Stainless steel roof hook",
+    "warranty": "10-year structural warranty",
+    "thumbnail": "/mounting system/For Tile Roof.png",
+    "heroImage": "/mounting system/For Tile Roof.png",
+    "features": [
+      "Stainless steel construction for corrosion resistance",
+      "Adjustable base plate with multiple mounting holes",
+      "Built for tile-roof rafter alignment flexibility"
+    ],
+    "certifications": [
+      "CE"
+    ],
+    "specs": {
+      "Material": "Stainless steel",
+      "Roof type": "Tile roof",
+      "Base plate": "Adjustable, multi-hole"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "For Tile Roof",
+        "shortDescription": "Stainless steel roof hook for tile-roof solar mounting.",
+        "description": "The For Tile Roof mounting hook is a stainless steel bracket for tile-roof solar installations, featuring an adjustable base plate with multiple mounting holes for flexible rafter alignment. It is built for installers who need a dependable, corrosion-resistant anchor point across varied tile roof profiles.",
+        "metaTitle": "Skyworth For Tile Roof Mounting",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth For Tile Roof solar mounting hardware."
+      },
+      {
+        "locale": "id",
+        "name": "For Tile Roof",
+        "shortDescription": "Roof hook stainless steel untuk pemasangan surya di atap genteng.",
+        "description": "Roof hook For Tile Roof adalah braket stainless steel untuk instalasi surya di atap genteng, dengan base plate yang dapat disetel dan memiliki banyak lubang pemasangan untuk fleksibilitas penyelarasan pada kaso atap. Produk ini dibuat untuk instalatur yang membutuhkan titik jangkar tahan korosi yang andal pada berbagai profil atap genteng.",
+        "metaTitle": "For Tile Roof Skyworth",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk perangkat mounting Skyworth For Tile Roof."
+      }
+    ]
+  },
+  {
+    "featured": false,
+    "gallery": [],
+    "datasheets": [],
+    "id": "prod-mounting-for-slate-roof",
+    "sku": "SKY-MNT-SLATE",
+    "slug": "mounting-for-slate-roof",
+    "category": "Mounting System",
+    "productLine": "Roof Mounting Hardware",
+    "powerW": 600,
+    "efficiency": 99,
+    "cells": "Waterproof bracket with L-foot",
+    "warranty": "10-year structural warranty",
+    "thumbnail": "/mounting system/For Slate Roof.png",
+    "heroImage": "/mounting system/For Slate Roof.png",
+    "features": [
+      "Waterproof bracket with sealed roof penetration",
+      "Adjustable L-foot for height and angle alignment",
+      "Designed for slate and metal roof PV installations"
+    ],
+    "certifications": [
+      "CE"
+    ],
+    "specs": {
+      "Material": "Waterproof bracket + adjustable L-foot",
+      "Roof type": "Slate / metal roof",
+      "Base plate": "Adjustable L-foot"
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "name": "For Slate Roof",
+        "shortDescription": "Waterproof mounting bracket with adjustable L-foot for slate-roof solar installations.",
+        "description": "The For Slate Roof mounting bracket is a waterproof solar roof bracket with a base plate and adjustable L-foot, designed for slate and metal roof photovoltaic installations. It keeps the roof penetration sealed while giving installers height and angle adjustment during array alignment.",
+        "metaTitle": "Skyworth For Slate Roof Mounting",
+        "metaDescription": "Specs, RFQ, and procurement details for the Skyworth For Slate Roof solar mounting hardware."
+      },
+      {
+        "locale": "id",
+        "name": "For Slate Roof",
+        "shortDescription": "Braket pemasangan waterproof dengan L-foot yang dapat disetel untuk instalasi surya atap slate.",
+        "description": "Braket For Slate Roof adalah braket atap surya waterproof dengan base plate dan L-foot yang dapat disetel, dirancang untuk instalasi fotovoltaik pada atap slate maupun metal. Produk ini menjaga titik penetrasi atap tetap kedap air sambil memberi instalatur penyesuaian tinggi dan sudut saat penyelarasan array.",
+        "metaTitle": "For Slate Roof Skyworth",
+        "metaDescription": "Spesifikasi, RFQ, dan detail procurement untuk perangkat mounting Skyworth For Slate Roof."
+      }
+    ]
   }
 ]

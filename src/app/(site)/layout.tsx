@@ -1,6 +1,7 @@
 import { Footer, Header } from "@/components/site-shell";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import { getTranslation, listProducts } from "@/lib/data";
 
 export const revalidate = 300;
@@ -25,6 +26,7 @@ export default async function SiteLayout({
       </main>
       <Footer />
       <ScrollToTop />
+      <WhatsAppButton />
     </>
   );
 }

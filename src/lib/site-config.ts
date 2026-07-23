@@ -33,11 +33,12 @@ export const siteConfig = {
   contact: {
     email: process.env.NEXT_PUBLIC_SALES_EMAIL ?? "sales@skyworth-pv.com",
     phone: process.env.NEXT_PUBLIC_SALES_PHONE ?? "+62 21 5550 0199",
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6281229995952",
     location: process.env.NEXT_PUBLIC_OFFICE_LOCATION ?? "Jakarta, Indonesia",
   },
   socialImage:
     process.env.NEXT_PUBLIC_SOCIAL_IMAGE ??
-    "/hero_banner.png",
+    "/hero-banner.png",
 };
 
 export function absoluteUrl(path = "/") {

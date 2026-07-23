@@ -91,7 +91,10 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${figtree.variable} ${geistMono.variable}`}>
-      <body className="min-h-screen bg-white font-sans text-brand-ink antialiased">
+      <body
+        className="min-h-screen bg-white font-sans text-brand-ink antialiased"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>

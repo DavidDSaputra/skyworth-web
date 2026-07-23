@@ -1,4 +1,5 @@
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowUpLong,
   faArrowRightArrowLeft,
@@ -70,4 +71,5 @@ export const icons = {
   solar: faSolarPanel,
   speed: faBoltLightning,
   specs: faGaugeHigh,
+  whatsapp: faWhatsapp,
 } satisfies Record<string, IconDefinition>;

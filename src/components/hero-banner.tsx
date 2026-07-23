@@ -36,7 +36,7 @@ export function HeroBanner() {
         }}
       >
         <Image
-          src="/hero_banner.png"
+          src="/hero-banner.png"
           alt="Skyworth hero banner"
           fill
           preload

@@ -42,3 +42,6 @@ public/uploads/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# deployment archives (regenerate with `npm run zip`, don't commit)
+*.zip
